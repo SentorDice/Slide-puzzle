@@ -1,3 +1,11 @@
+
+function preload (){
+for(let i = 0, i < 16, i++)
+images[i] = loadImage("images/ing"+i+".png")
+
+tiles[i] = new Tiles(i,i,images[i])
+}
+Images(i)
 function setup() {
   createCanvas(400, 400);
 }
